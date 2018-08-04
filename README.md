@@ -9,8 +9,8 @@ Developer test for Punchmark
 
 + The information in the two CSV files must be matched by 'Style #' for the data to be correct. The order of the products in the updated CSV do not match the order of the products in the orignal CSV and some products may be missing from each one.
 
-+ Baseline task is to build a script that will output the number of duplicate Style #s, if any, in the update CSV file, as well as any products not found in the original CSV, like this: 
-Duplicate Style #s: 99
-Items missing from Original CSV: 99
++ Baseline task is to build a script that will output the number of duplicate Style #s, if any, in the update CSV file, as well as any products not found in the original CSV, like this:    Duplicate Style #s: 99   Items missing from Original CSV: 99
 
 + Ideally, the solution will only read through each file once.
+
+Ultimately, I created a solution that you could run directly on the command line that would look through each file one time, and produce a final csv file in the directory of the project. This was my first time using PHP outside of basic WordPress coding, as well as my first time working with .csv files
